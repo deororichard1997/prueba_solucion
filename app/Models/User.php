@@ -21,7 +21,29 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'photo',
+        'rango_salarial',
+        'nivel_profesional',
+        'nombre_completo',
+        'profesion',
+        'especializacion',
+        'numero_documento',
+        'ciudad_de_empleo',
+        'traslado',
+        'celular',
+        'linkedin',
+        'valor_agregado',
+        'feliz_en_la_labor',
+        'talento_profesional',
+        'ideas',
+        'datos_complementarios',
+        'competencias',
+        'tipo_cultura',
+        'jornada',
+        'tipo_formacion',
+
     ];
+
 
     /**
      * The attributes that should be hidden for serialization.
@@ -42,4 +64,14 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
         'password' => 'hashed',
     ];
+
+    public function formacionAcademica()
+    {
+        return $this->hasMany(FormacionAcademica::class);
+    }
+
+    public function experienciaLaboral()
+    {
+        return $this->hasMany(ExperienciaLaboral::class);
+    }
 }
