@@ -18,11 +18,11 @@ Pasos para la correo proyecto en local
 
 Rutas de la API
 
--Iniciar sesión: Tipo de ruta: POST: http://127.0.0.1:8000/api/login
--Cerrar sesión: Tipo de ruta: POST: http://127.0.0.1:8000/api/logout
--Restabelcer contraseña: Tipo de ruta: POST: http://127.0.0.1:8000/api/restablecer-password
--(utliilar el token para las sgtes soliciturdes)
--Guardar info del usuario: Tipo de ruta: POST: http://127.0.0.1:8000/api/usuarios/store
--Mostrar info del usuario: Tipo de ruta: GET: http://127.0.0.1:8000/api/usuarios/{id}
--Actualizar info del usuario: Tipo de ruta: PUT: http://127.0.0.1:8000/api/usuarios/{id} enviar info del usuario en el body
--Eliminar info del usuario: Tipo de ruta: DELETE: http://127.0.0.1:8000/api/usuarios/{id}
+- Iniciar sesión: Tipo de ruta: POST: http://127.0.0.1:8000/api/login
+- Cerrar sesión: Tipo de ruta: POST: http://127.0.0.1:8000/api/logout
+- Restabelcer contraseña: Tipo de ruta: POST: http://127.0.0.1:8000/api/restablecer-password
+- (utliilar el token para las sgtes soliciturdes)
+- Guardar info del usuario: Tipo de ruta: POST: http://127.0.0.1:8000/api/usuarios/store
+- Mostrar info del usuario: Tipo de ruta: GET: http://127.0.0.1:8000/api/usuarios/{id}
+- Actualizar info del usuario: Tipo de ruta: PUT: http://127.0.0.1:8000/api/usuarios/{id} enviar info del usuario en el body
+- Eliminar info del usuario: Tipo de ruta: DELETE: http://127.0.0.1:8000/api/usuarios/{id}
