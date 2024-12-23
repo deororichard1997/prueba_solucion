@@ -1,0 +1,64 @@
+
+{
+    "_comentario": "Este es el json para probar la APi de creación de usuario con postman",
+    "name": "",
+    "email": "richard.deoro@example.com",
+    "photo": "",
+    "password": "password123",
+    "rango_salarial": "1000-1500",
+    "nivel_profesional": "Licenciado",
+    "nombre_completo": "Richard De Oro",
+    "profesion": "Ingeniero de Software",
+    "especializacion": "Desarrollo Web",
+    "numero_documento": "1234567890",
+    "ciudad_de_empleo": "Barranquilla",
+    "traslado": true,
+    "celular": "3001234567",
+    "linkedin": "https://linkedin.com/in/juanperez",
+    "valor_agregado": "Innovador, trabajo en equipo",
+    "feliz_en_la_labor": "Sí",
+    "talento_profesional": "FullStak Developer",
+    "ideas": "Mejorar la productividad",
+    "datos_complementarios": "Ninguno",
+    "competencias": "Java, PHP, MySQL",
+    "tipo_cultura": "Innovación",
+    "jornada": "Full-time",
+    "tipo_formacion": "Universitaria",
+    
+    "formacion_academica": [
+        {
+            "titulo_obtenido": "Ingeniero de Software",
+            "institucion": "Universidad Americana",
+            "fecha_inicio": "2015-01-01",
+            "fecha_fin": "2021-12-31"
+        },
+        {
+            "titulo_obtenido": "Especialista en Desarrollo Web",
+            "institucion": "Universidad Nacional",
+            "fecha_inicio": "2016-01-01",
+            "fecha_fin": "2017-12-31"
+        }
+    ],
+    
+    "experiencia_laboral": [
+        {
+            "cargo": "Desarrollador Backend",
+            "empresa": "Empresa A",
+            "fecha_inicio": "2018-01-01",
+            "fecha_fin": "2020-12-31",
+            "logros": "Mejora en eficiencia del sistema",
+            "archivo": null,
+            "trabaja_actualmente": false
+        },
+        {
+            "cargo": "Desarrollador Full Stack",
+            "empresa": "Empresa B",
+            "fecha_inicio": "2021-01-01",
+            "fecha_fin": "2024-12-31",
+            "logros": "Liderazgo en desarrollo de proyectos",
+            "archivo": null,
+            "trabaja_actualmente": true
+        }
+    ]
+}
+
