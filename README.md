@@ -6,6 +6,8 @@ Requisitos
 - [MySQL o MariaDB](https://www.mysql.com/)
 - [Node.js y NPM](https://nodejs.org/)
 
+- La rama master es la que contiene el código
+
 
 Pasos para la correo proyecto en local
 - 1- clonar el repositorio
