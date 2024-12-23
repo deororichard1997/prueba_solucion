@@ -1,4 +1,4 @@
-# prueba_solucion APi laravel v.10
+# Prueba_solucion APi laravel v.10
 Requisitos
 - [PHP >= 8.1](https://www.php.net/)
 - [Composer](https://getcomposer.org/)
@@ -9,7 +9,7 @@ Requisitos
 La rama master es la que contiene el código
 
 Pasos para la correo proyecto en local
-- 1- clonar el repositorio
+- 1- Clonar el repositorio
 - 2- Ubicarse en la carpeta del royecto y ejecutar el comando: composer install
 - 3- Configurar variabes de entorno
 - 4- Generar la clave de la aplicacion con el siguiente comando: php artisan key:generate
